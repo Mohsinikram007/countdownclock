@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+p{
+    margin: auto;
+    width: 60%;
+}
+.container{
+    margin:auto;
+    width: 50%;
+    background-color: whitesmoke;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+}
+.title{
+    margin: auto;
+    width: 70%;
+    font-family:cursive;
+    color:rgb(0, 104, 189);
+    text-align: center;
+}
+.tagline
+{
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    color: rgb(0, 0, 32);
+    margin-bottom: 10px;
+}
+.pic
+{
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+}
+.clock{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+    padding: 40px;
+}
+.clock-details{
+    padding: 30px;
+    background-color: rgb(46, 44, 44);
+    color: white;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
